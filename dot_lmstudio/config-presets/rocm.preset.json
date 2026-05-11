@@ -1,0 +1,16 @@
+{
+  "identifier": "@local:rocm",
+  "name": "rocm",
+  "changed": true,
+  "operation": {
+    "fields": [
+      {
+        "key": "llm.prediction.llama.cpuThreads",
+        "value": 6
+      }
+    ]
+  },
+  "load": {
+    "fields": []
+  }
+}
